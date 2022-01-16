@@ -9,10 +9,11 @@ hr {
 
 button {
     height: 60px;
-    border: none;
-    transition-duration: 0.5s;
+    border-style: none;
     background-color: white;
     font-size: 16px;
+
+    transition-duration: 0.5s;
 }
 
 .hr-work {
