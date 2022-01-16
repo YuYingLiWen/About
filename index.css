@@ -1,4 +1,4 @@
-div, header, p {
+div, header, p, a {
     font-family: 'Roboto', sans-serif
 }
 
@@ -13,11 +13,19 @@ hr {
 
 header {
     text-align: center;
-    padding: 2% 0px 1% 0px;
-    height: 5vh;
+    height: fit-content;
     width: 100%;
+    margin: 40px 0px 20px 0px;
+}
+
+header p {
     font-size: 36px;
     min-height: 40px;
+    margin: 0px;
+}
+
+header a {
+    padding: 0px;
 }
 
 footer {

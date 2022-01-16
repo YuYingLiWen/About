@@ -2,6 +2,7 @@
 
 <html>
 	<head>
+		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="index.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,24 +10,50 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap"
 			rel="stylesheet"
 		/>
-		<script src="index.js"></script>
+		<title>~ Hey!</title>
 	</head>
-	<title>Hello!</title>
 
 	<body>
-		<header>YU YING LI WEN</header>
+		<header id="header">
+			<p>YU YING LI WEN</p>
+			<a href="//www.linkedin.com/in/yu-ying-li-wen/"
+				>//www.linkedin.com/in/yu-ying-li-wen/</a
+			>
+		</header>
 		<div class="main-flex-container">
 			<div class="left-static-panel">
 				<div class="buttons-panel">
-					<button id="btn-home" type="button">Home</button>
-					<button id="btn-about" type="button">About</button>
-					<button id="btn-home" type="button">Experience</button>
-					<button id="btn-home" type="button">Projects</button>
-					<button id="btn-home" type="button">Awards & Others</button>
+					<!--<button id="btn-home" type="button" onclick="location.reload()">
+						Home
+					</button>-->
+					<button
+						id="btn-about"
+						type="button"
+						onclick="location.href='#about-me'"
+					>
+						About
+					</button>
+					<button
+						id="btn-home"
+						type="button"
+						onclick="location.href='#my-experience'"
+					>
+						Experience
+					</button>
+					<button
+						id="btn-home"
+						type="button"
+						onclick="location.href='#my-projects'"
+					>
+						Projects
+					</button>
+					<button id="btn-home" type="button" onclick="location.href='#others'">
+						Awards & Others
+					</button>
 				</div>
 			</div>
 			<div class="main-dynamic-panel">
-				<div class="about">
+				<div class="about" id="about-me">
 					<h1>About Me</h1>
 					<p>
 						Hi! <br />
@@ -68,9 +95,9 @@
 				</div>
 				<hr />
 
-				<div class="experience">
+				<div class="experience" id="my-experience">
 					<h1>Work Experience</h1>
-					<div id="my-experience">
+					<div>
 						<div>
 							<h3>FSWEP - IT Support Technician</h3>
 							<h4>Courts Administration Service</h4>
@@ -153,12 +180,13 @@
 				</div>
 				<hr />
 
-				<div class="projects">
-					<h1>My Works</h1>
-					<ul id="my-projects">
+				<div class="projects" id="my-projects">
+					<h1>My Projects</h1>
+					<ul>
 						<div>
 							<h3><a href="index.html">this.website</a></h3>
 						</div>
+						<hr id="hr-work" />
 						<div>
 							<h3><a href="">Logical Circuit Sandbox/Game</a></h3>
 							<p>
@@ -178,9 +206,7 @@
 								<img src="gifs\YUROCK.gif" alt="" />
 							</div>
 						</div>
-
 						<hr id="hr-work" />
-
 						<div>
 							<h3><a href="">Danbar</a></h3>
 							<p>A space sci-fi bullet hell game.</p>
@@ -208,7 +234,7 @@
 					</ul>
 				</div>
 				<hr />
-				<div class="awards-others">
+				<div class="awards-others" id="others">
 					<h1>Awards and Others</h1>
 					<ul>
 						<li>Lord Strathcona Medal</li>
@@ -225,6 +251,12 @@
 						onclick="window.open('//www.linkedin.com/in/yu-ying-li-wen/','_blank')"
 					>
 						LinkedIn
+					</button>
+					<button
+						type="button"
+						onclick="window.open('//github.com/YuYingLiWen','_blank')"
+					>
+						GitHub
 					</button>
 				</div>
 			</div>
