@@ -1,0 +1,94 @@
+{
+    "job-experiences":
+    [
+        {
+            "title": "FSWEP - Automation Tester",
+            "organization": "Courts Administration Service",
+            "location" : "Montreal, QC",
+            "time-from-month" : "June",
+            "time-from-year" : "2021",
+            "time-to-month" : "August",
+            "time-to-year" : "2021",
+            "job-description":
+            [
+                "Manage an IT ticketing system",
+                "Resolve user account issues with Active Directory and Goverlan",
+                "Resolve Window, iPhone & Android, and other IT assets related issues",
+                "Dispatch and track IT assets",
+                "Make Ethernet cables and fix network switch wiring",
+                "Setup Zoom conference with Polycom",
+                "Setup LAN access depending on new need"
+            ]
+        },
+        {
+            "title": "FSWEP - IT Support Technician",
+            "organization": "Courts Administration Service",
+            "location" : "Montreal, QC",
+            "time-from-month" : "June",
+            "time-from-year" : "2021",
+            "time-to-month" : "August",
+            "time-to-year" : "2021",
+            "job-description":
+            [
+                "Manage an IT ticketing system",
+                "Resolve user account issues with Active Directory and Goverlan",
+                "Resolve Window, iPhone & Android, and other IT assets related issues",
+                "Dispatch and track IT assets",
+                "Make Ethernet cables and fix network switch wiring",
+                "Setup Zoom conference with Polycom",
+                "Setup LAN access depending on new need"
+            ]
+        },
+        {
+            "title": "Unity3D Developer Internship",
+            "organization": "LEADHOUSE",
+            "location": "Terrebone, QC",
+            "time-from-month" : "March",
+            "time-from-year" : "2021",
+            "time-to-month" : "Mai",
+            "time-to-year" : "2021",
+            "job-description":
+            [
+                "Developed app that displays users GPS location updated in realtime with Firebase and Mapbox SDK",
+                "Developed 3D physics based mini games for the LaSSaL app",
+                "Built an arcade quadcopter simulator",
+                "Built an Arduino device that monitors temperature and humidity level that can be viewed through anywhere through an app"
+            ]
+        },
+        {
+            "title": "Functionality QA Tester",
+            "organization": "Keywords Studios",
+            "location" : "Montreal, QC",
+            "time-from-month" : "July",
+            "time-from-year" : null,
+            "time-to-month" : "August",
+            "time-to-year" : null,
+            "job-description":
+            [
+                "Find, analyze, report, vet, regress, and track bugs in AAA games with Jira",
+                "Perform Smoke Test, Black Box and Grey Box Testing",
+                "Uses Jira, Slack & Favro",
+                "Make test cases and test suites for each stages of product development",
+                "Write end of day reporting to customer",
+                "Help new testers get onboard our project"
+            ]
+        },
+        {
+            "title": "General Assistant",
+            "organization": "Depanneur Qin",
+            "location" : "Montreal, QC",
+            "time-from-month" : "June 2013",
+            "time-from-year" : null,
+            "time-to-month" : "July 2017",
+            "time-to-year" : null,
+            "job-description":
+            [
+                "Provide customer service",
+                "Generate new marketing strategy",
+                "Take and make resupply orders",
+                "Help with inventory management",
+                "Promote new products"
+            ]
+        }
+    ]
+}
