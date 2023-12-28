@@ -1,0 +1,17 @@
+{
+    "awards":
+    [
+        {
+            "name": "Lord Strathcona Medal",
+            "description" : "",
+            "year-received": ""
+        },
+        {
+            "name": "Sea Cadet Service Medal",
+            "description" : "",
+            "year-received": ""
+        }
+    ],
+    
+    "spoken-languages":["english, french, mandarin"]
+}

@@ -3,13 +3,14 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!--<link rel="stylesheet" href="index.css" />-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap"
       rel="stylesheet"
     />
+    <!--<link rel="stylesheet" href="css/index.css" />-->
+    <script defer src="js/index.js"></script>
     <title>~ Hey!</title>
   </head>
 
@@ -54,9 +55,10 @@
         </nav>
       </section>
       <section class="main-dynamic-panel">
-        <div class="about" id="about-me">
+        <section class="about" id="about-me">
           <h1>About Me</h1>
           <p>
+            <!-- Maybe put as formated text -->
             Hi! <br />
             I am a charismatic and self-motivated person who enjoys working in a
             fast paced environment where I can tackle and solve new challenges.
@@ -78,7 +80,7 @@
               <li>Python</li>
               <li>JS/HTML/CSS</li>
             </ul>
-		</section>
+          </section>
           <section>
             <h4>My toolbelt</h4>
             <ul>
@@ -92,19 +94,20 @@
               <li>Inkscape</li>
               <li>Blender</li>
             </ul>
-		</section>
-	</section>
+          </section>
+        </section>
         <hr />
 
-        <div class="experience" id="my-experience">
+        <section class="experience" id="my-experience">
           <h1>Work Experience</h1>
           <div>
             <div>
               <h3>FSWEP - IT Support Technician</h3>
-              <div class="work-date">
+              <section class="work-date">
                 <h4 style="text-align: left">Courts Administration Service</h4>
-                <h4 style="text-align: right">June - Aug 2021</h4>
+                <h4 style="text-align: right"><time>June - <time>Aug 2021<time></h4>
               </div>
+			  <section>
               <ul>
                 <li>Manage an IT ticketing system</li>
                 <li>
@@ -119,6 +122,7 @@
                 <li>Setup Zoom conference with Polycom</li>
                 <li>Setup LAN access depending on new need</li>
               </ul>
+			</section>
             </div>
             <div>
               <h3>Unity3D Developer (Intern)</h3>
@@ -149,14 +153,12 @@
               </div>
               <ul>
                 <li>
-                  Find, analyze, report, vet, regress, and track bugs in AAA
-                  games with Jira
+                  Find, analyze, report, vet, regress, and track bugs in AAA games with Jira
                 </li>
                 <li>Perform Smoke Test, Black Box and Grey Box Testing</li>
                 <li>Uses Jira, Slack & Favro</li>
                 <li>
-                  Make test cases and test suites for each stages of product
-                  development
+                  Make test cases and test suites for each stages of product development
                 </li>
                 <li>Write end of day reporting to customer</li>
                 <li>Help new testers get onboard our project</li>
@@ -188,7 +190,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </section>
         <hr />
 
         <div class="projects" id="my-projects">

@@ -1,0 +1,69 @@
+{
+    "projects":
+    [
+        {
+            "title": "CV Website",
+            "time-from-month" : "January",
+            "time-from-year" : "2022",
+            "time-to-month" : "December",
+            "time-to-year" : "2023",
+            "description": "Started back in 2022 as a quick and dirty curiculum vitae website. In 2023, decided to learn JS/CSS/HTML seriously to make the website look professional.",
+            "technologies-used":
+            [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSON"
+            ],
+            "media": null
+        },
+        {
+            "title": "Yurock",
+            "time-from-month" : "January",
+            "time-from-year" : "2022",
+            "time-to-month" : "December",
+            "time-to-year" : "2023",
+            "description": "Started back in 2022 as a quick and dirty curiculum vitae website. In 2023, decided to learn JS/CSS/HTML seriously to make the website look professional.",
+            "technologies-used":
+            [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSON"
+            ],
+            "media":"gifs\\Danbar.gif"
+        },
+        {
+            "title": "Playground",
+            "time-from-month" : "January",
+            "time-from-year" : "2022",
+            "time-to-month" : "December",
+            "time-to-year" : "2023",
+            "description": "Started back in 2022 as a quick and dirty curiculum vitae website. In 2023, decided to learn JS/CSS/HTML seriously to make the website look professional.",
+            "technologies-used":
+            [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSON"
+            ],
+            "media":"gifs\\Playground.gif"
+        },
+        {
+            "title": "Block Breaker",
+            "time-from-month" : "January",
+            "time-from-year" : "2022",
+            "time-to-month" : "December",
+            "time-to-year" : "2023",
+            "description": "Started back in 2022 as a quick and dirty curiculum vitae website. In 2023, decided to learn JS/CSS/HTML seriously to make the website look professional.",
+            "technologies-used":
+            [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSON"
+            ],
+            "media":"gifs\\Old-brick-breaker-demo.gif"
+        }
+    ]
+}
