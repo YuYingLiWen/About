@@ -31,7 +31,7 @@
                 "CSS",
                 "JSON"
             ],
-            "media":"gifs\\Danbar.gif"
+            "media":"Danbar.gif"
         },
         {
             "title": "Playground",
@@ -47,7 +47,7 @@
                 "CSS",
                 "JSON"
             ],
-            "media":"gifs\\Playground.gif"
+            "media":"Playground.gif"
         },
         {
             "title": "Block Breaker",
@@ -63,7 +63,7 @@
                 "CSS",
                 "JSON"
             ],
-            "media":"gifs\\Old-brick-breaker-demo.gif"
+            "media":"Old-brick-breaker-demo.gif"
         }
     ]
 }

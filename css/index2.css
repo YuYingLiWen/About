@@ -1,0 +1,118 @@
+div, header, p, a {
+    font-family: 'Roboto', sans-serif
+}
+
+hr {
+    border: 1px solid rgb(140, 201, 250);
+    margin: 30px 50px 20px 50px;
+}
+
+button {
+    height: 60px;
+    border-style: none;
+    background-color: white;
+    font-size: 16px;
+
+    transition-duration: 0.5s;
+}
+
+.hr-work {
+    border: 1px dashed rgb(216, 216, 216);
+}
+
+header {
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    margin: 30px 0px 10px 0px;
+}
+
+header p {
+    font-size: 36px;
+    min-height: 40px;
+    margin: 0px;
+}
+
+header a {
+    padding: 0px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+}
+
+.btns-panel-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-btns-grp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-btns-grp button {
+    width: 100px;
+    font-size: 14px;
+    height: 50px;
+}
+
+.work-date {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.work-date h4 {
+    margin: 0px;
+}
+
+
+
+
+.btns-panel-footer div {
+    /* Seperator */
+    width: 100%;
+}
+
+.left-static-panel {
+    width: 15%;
+    height: 100%;
+}
+
+.main-dynamic-panel {
+    width: 85%;
+    padding: 25px 25px 25px 5%;
+
+    margin: 0px 0px 50px 0px;
+
+    /*Scrolls*/
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.main-flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-height: 80vh;
+    padding: 0% 15% 0% 15%;
+}
+
+.buttons-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+#copyright {
+    font-size: medium;
+}
+
+/* Animations */
+button:hover {
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
