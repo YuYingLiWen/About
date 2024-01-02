@@ -1,3 +1,6 @@
+@import url("footer.css");
+@import url("header.css");
+
 * {
   padding: 0px;
   margin: 0px;
@@ -14,7 +17,8 @@ h4,
 h5,
 h6,
 a,
-p {
+p,
+li {
   font-family: "Roboto", sans-serif;
 }
 
@@ -100,14 +104,23 @@ body {
   justify-content: space-around;
 }
 
-.jobs section{
-}
-
 .job {
   border: 1px solid black;
-  min-width: 500px;
+  min-width: 200px;
+  max-width: 500px;
+}
+.job-description{
+  width: 100%;
+}
+.job-date {
+  padding: 1rem 1rem 0px 0px;
 }
 
-.job-date {
-  padding: 20px 20px 0px 0px;
+.job-description-list
+{
+  width: 100%;
+}
+.job-description-list-item
+{
+  width: 100%;
 }

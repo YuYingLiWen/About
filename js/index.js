@@ -28,6 +28,11 @@ function createLi(attrName)
   return createElement("li", "class", attrName);
 }
 
+function createH3(attrName)
+{
+  return createElement("h3", "class", attrName);
+}
+
 function makeJobHTMLElement(jobData) {
   const sectionJob = createSection("job");
   const sectionJobHeader = createSection("job-header");
@@ -35,10 +40,11 @@ function makeJobHTMLElement(jobData) {
   const sectionJobHeaderRightPanel = createSection("job-header-right-panel");
   const sectionJobDescription = createSection("job-description");
 
-  const pJobTitle = createP("job-title");
-  const pJobOrganization = createP("job-title");
-  const pJobLocation = createP("job-title");
-  const pJobDate = createP("job-title");
+  const pJobTitle = createH3("job-title");
+
+  const pJobOrganization = createP("job-organization");
+  const pJobLocation = createP("job-location");
+  const pJobDate = createP("job-date");
 
   const timeFrom = createTime("date-from");
   const timeTo = createTime("date-to");
