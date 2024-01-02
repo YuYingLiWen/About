@@ -1,0 +1,41 @@
+.job-header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+  }
+  
+  .job-header-right-panel {
+    display: grid;
+    width: 100%;
+    justify-content: right;
+  }
+  
+  .jobs
+  {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 35px;
+    column-gap: 50px;
+    justify-content: space-around;
+  }
+  
+  .job {
+    border: 1px solid black;
+    min-width: 200px;
+    max-width: 500px;
+  }
+  .job-description{
+    width: 100%;
+  }
+  .job-date {
+    padding: 1rem 1rem 0px 0px;
+  }
+  
+  .job-description-list
+  {
+    width: 100%;
+  }
+  .job-description-list-item
+  {
+    width: 100%;
+  }
