@@ -14,66 +14,168 @@
     />
     <script defer src="js/index.js"></script>
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <title>Yu Ying Li Wen</title>
   </head>
 
   <body>
     <header>
       <section class="head-nav">
-        <h1 class="head-nav-element">Yu Ying Li Wen</h1>
+        <a href="index.html" class="head-nav-logo">
+          <h1 class="head-nav-element my-name">Yu Ying Li Wen</h1>
+        </a>
         <section class="head-nav-element">
           <nav class="head-nav-buttons-container">
-            <button input="button" onclick="" class="head-nav-button">
-              Home
-            </button>
-            <button input="button" onclick="" class="head-nav-button">
-              Experience
-            </button>
-            <button input="button" onclick="" class="head-nav-button">
-              Projects
-            </button>
-            <button input="button" onclick="" class="head-nav-button">
-              Awards
-            </button>
-            <button input="button" onclick="" class="head-nav-button">
-              Others
-            </button>
+            <a href="index.html" class="head-nav-button"> Home </a>
+            <a href="#experiences" class="head-nav-button"> Experiences </a>
+            <a href="#projects" class="head-nav-button"> Projects </a>
+            <a href="#awards" class="head-nav-button"> Awards </a>
+            <a href="#others" class="head-nav-button"> Others </a>
           </nav>
         </section>
       </section>
     </header>
     <section class="content-area">
-      <section class="profile-pic-container">
-        <p class="welcome-message">Hi, I am Yu Ying, nice to meet you!</p>
+      <section class="user-welcome-message">
+        <p class="message">Hello world!</p>
+      </section>
+      <section class="summary content-area-padding">
+        <section class="summary-contents">
+          <section>
+            <h2>Software Developer</h2>
+            <ul>
+              <li>Unity Engine</li>
+              <li>Front End-Developer</li>
+              <li>Automation</li>
+              <li>Design</li>
+              <li>Placeholder</li>
+            </ul>
+            <p>Enjoy minimalistic &horbar; simple design.</p>
+          </section>
+          <img class="profile-picture" src="gifs/Danbar.gif" alt="my-picture" />
+        </section>
+      </section>
+      <section class="user-experiences content-area-padding" id="experiences">
+        user-experiences
+        <h2>Experiences</h2>
+        <section class="jobs" id="jobs">
+          <section class="job">
+            <section class="job-header">
+              <section class="job-header-left-panel">
+                <p class="job-title">FSWEP - Automation Tester</p>
+                <p class="job-organization">CFIA</p>
+                <p class="job-location">Montreal, QC</p>
+              </section>
+              <section class="job-header-right-panel">
+                <p class="job-date">
+                  <time class="date-from">From</time> &horbar;
+                  <time class="date-to">To</time>
+                </p>
+              </section>
+            </section>
+            <section class="job-description">
+              <ul>
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+                <li>Task 5</li>
+              </ul>
+            </section>
+          </section>
+          <section class="job">
+            <section class="job-header">
+              <section class="job-header-left-panel">
+                <h3 class="job-title">FSWEP - Automation Tester</h3>
+                <p class="job-organization">CFIA</p>
+                <p class="job-location">Montreal, QC</p>
+              </section>
+              <section class="job-header-right-panel">
+                <p class="job-date">
+                  <time class="date-from">From</time> &horbar;
+                  <time class="date-to">To</time>
+                </p>
+              </section>
+            </section>
+            <section class="job-description">
+              <ul>
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+                <li>Task 5</li>
+              </ul>
+            </section>
+          </section>
+          <section class="job">
+            <section class="job-header">
+              <section class="job-header-left-panel">
+                <p class="job-title">FSWEP - Automation Tester</p>
+                <p class="job-organization">CFIA</p>
+                <p class="job-location">Montreal, QC</p>
+              </section>
+              <section class="job-header-right-panel">
+                <p class="job-date">
+                  <time class="date-from">From</time> &horbar;
+                  <time class="date-to">To</time>
+                </p>
+              </section>
+            </section>
+            <section class="job-description">
+              <ul>
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+                <li>Task 5</li>
+              </ul>
+            </section>
+          </section>
+          <section class="job">
+            <section class="job-header">
+              <section class="job-header-left-panel">
+                <h3 class="job-title">FSWEP - Automation Tester</h3>
+                <p class="job-organization">CFIA</p>
+                <p class="job-location">Montreal, QC</p>
+              </section>
+              <section class="job-header-right-panel">
+                <p class="job-date">
+                  <time class="date-from">From</time> &horbar;
+                  <time class="date-to">To</time>
+                </p>
+              </section>
+            </section>
+            <section class="job-description">
+              <ul>
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+                <li>Task 5</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+      </section>
+      <section class="user-projects content-area-padding" id="projects">
+        user-projects
+      </section>
+      <section class="user-awards content-area-padding" id="awards">
+        user-awards
+      </section>
+      <section class="user-others content-area-padding" id="others">
+        user-others
+      </section>
+      <!--<section class="profile-pic-container">
+        
         <img id="profile-pic" src="gifs/Danbar.gif" alt="My profile picture" />
+        <p class="profile-description">
+            Software Developer
+        </p>
       </section>
-      <section>
-        <nav class="nav-panel">
-          <ul class="nav-panel-list">
-            <li class="nav-panel-list-item">
-              <a class="nav-panel-list-item-link" href="index2.html">About</a>
-            </li>
-            <li class="nav-panel-list-item">
-              <a class="nav-panel-list-item-link" href="index2.html"
-                >Experience</a
-              >
-            </li>
-            <li class="nav-panel-list-item">
-              <a class="nav-panel-list-item-link" href="index2.html"
-                >Projects</a
-              >
-            </li>
-            <li class="nav-panel-list-item">
-              <a class="nav-panel-list-item-link" href="index2.html">Awards</a>
-            </li>
-            <li class="nav-panel-list-item">
-              <a class="nav-panel-list-item-link" href="index2.html"
-                >And More</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </section>
+-->
     </section>
     <footer>
       <section class="footer-nav-container">

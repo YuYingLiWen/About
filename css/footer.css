@@ -1,0 +1,25 @@
+footer {
+    display: grid-column;
+    background-color: aquamarine;
+  }
+  
+  .footer-nav {
+    background-color: aqua;
+  }
+  
+  .footer-nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .social-link {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .copyright-text {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
