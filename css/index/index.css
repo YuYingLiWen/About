@@ -18,14 +18,15 @@ h4,
 h5,
 h6,
 a,
-p,
-li {
+p
+{
   font-family: "Roboto", sans-serif;
 }
 
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .profile-picture {
@@ -81,6 +82,10 @@ body {
 }
 
 .content-area-padding {
-  padding: 25px 50px 25px 50px;
+  padding: 25px 15% 25px 15%;
 }
 
+.user-achievements-padding
+{
+  padding-bottom: 1rem;
+}

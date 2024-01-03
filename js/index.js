@@ -18,18 +18,15 @@ function createTime(attrName) {
   return createElement("time", "class", attrName);
 }
 
-function createUl(attrName)
-{
+function createUl(attrName) {
   return createElement("ul", "class", attrName);
 }
 
-function createLi(attrName)
-{
+function createLi(attrName) {
   return createElement("li", "class", attrName);
 }
 
-function createH3(attrName)
-{
+function createH3(attrName) {
   return createElement("h3", "class", attrName);
 }
 
@@ -52,9 +49,9 @@ function makeJobHTMLElement(jobData) {
   const jobDescList = createUl("job-description-list");
 
   sectionJob.appendChild(sectionJobHeader);
+  sectionJob.appendChild(sectionJobDescription);
   sectionJobHeader.appendChild(sectionJobHeaderLeftPanel);
   sectionJobHeader.appendChild(sectionJobHeaderRightPanel);
-  sectionJobHeader.appendChild(sectionJobDescription);
   sectionJobHeaderLeftPanel.appendChild(pJobTitle);
   sectionJobHeaderLeftPanel.appendChild(pJobOrganization);
   sectionJobHeaderLeftPanel.appendChild(pJobLocation);
@@ -74,7 +71,6 @@ function makeJobHTMLElement(jobData) {
   pJobDate.appendChild(timeTo);
 
   for (const task of jobData["job-description"]) {
-
     const taskItem = createLi("job-description-list-item");
     taskItem.textContent = task;
     jobDescList.appendChild(taskItem);
@@ -83,18 +79,32 @@ function makeJobHTMLElement(jobData) {
   return sectionJob;
 }
 
+function makeProjectHTMLElement(jobData) {
+
+}
+
 async function loadJobExperiences() {
   fetch("./data/job_experiences.json").then((response) =>
-    response.json().then((json) => {
-      const jobs = document.getElementById("jobs");
+    response.json().finally((json) => {
+      const jobsAnchor = document.getElementById("jobs");
 
       for (const job of json["job-experiences"]) {
-        console.log(job["title"]);
-
-        jobs.appendChild(makeJobHTMLElement(job));
+        jobsAnchor.appendChild(makeJobHTMLElement(job));
       }
     })
   );
+}
+
+async function loadProjects() {
+  fetch("./data/job_experiences.json")
+    .then((response) => response.json())
+    .finally((json) => {
+      const projectAnchor = document.getElementById("projects");
+
+      for (const project of json["projects"]) {
+        projectAnchor.appendChild(makeProjectHTMLElement(project));
+      }
+    });
 }
 
 loadJobExperiences();
