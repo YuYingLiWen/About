@@ -77,10 +77,10 @@
             "title": "General Assistant",
             "organization": "Depanneur Qin",
             "location" : "Montreal, QC",
-            "time-from-month" : "June 2013",
-            "time-from-year" : null,
-            "time-to-month" : "July 2017",
-            "time-to-year" : null,
+            "time-from-month" : "June",
+            "time-from-year" : "2013",
+            "time-to-month" : "July",
+            "time-to-year" : "2017",
             "job-description":
             [
                 "Provide customer service",
