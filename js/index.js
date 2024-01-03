@@ -85,7 +85,7 @@ function makeProjectHTMLElement(jobData) {
 
 async function loadJobExperiences() {
   fetch("./data/job_experiences.json").then((response) =>
-    response.json().finally((json) => {
+    response.json().then((json) => {
       const jobsAnchor = document.getElementById("jobs");
 
       for (const job of json["job-experiences"]) {
@@ -98,7 +98,7 @@ async function loadJobExperiences() {
 async function loadProjects() {
   fetch("./data/job_experiences.json")
     .then((response) => response.json())
-    .finally((json) => {
+    .then((json) => {
       const projectAnchor = document.getElementById("projects");
 
       for (const project of json["projects"]) {
