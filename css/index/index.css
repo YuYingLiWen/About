@@ -1,7 +1,7 @@
 @import url("/css/footer.css");
 @import url("/css/header.css");
 @import url("job.css");
-
+@import url("project.css");
 * {
   padding: 0px;
   margin: 0px;
@@ -59,7 +59,6 @@ body {
 }
 
 .user-projects {
-  height: 100px;
 
   background-color: green;
 }

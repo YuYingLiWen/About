@@ -48,6 +48,8 @@ function makeJobHTMLElement(jobData) {
 
   const jobDescList = createUl("job-description-list");
 
+  // there is a better to do this. Use innerHTML
+
   sectionJob.appendChild(sectionJobHeader);
   sectionJob.appendChild(sectionJobDescription);
   sectionJobHeader.appendChild(sectionJobHeaderLeftPanel);
@@ -66,9 +68,7 @@ function makeJobHTMLElement(jobData) {
     jobData["time-from-month"] + " " + jobData["time-from-year"];
   timeTo.textContent = jobData["time-to-month"] + " " + jobData["time-to-year"];
 
-  pJobDate.textContent = " ― ";
-  pJobDate.prepend(timeFrom);
-  pJobDate.appendChild(timeTo);
+  pJobDate.innerHTML = `${timeFrom.textContent} ― ${timeTo.textContent}`
 
   for (const task of jobData["job-description"]) {
     const taskItem = createLi("job-description-list-item");
@@ -80,6 +80,9 @@ function makeJobHTMLElement(jobData) {
 }
 
 function makeProjectHTMLElement(jobData) {
+  const aProject = createSection("project");
+
+  aProject.innerHTML = ``;
 
 }
 

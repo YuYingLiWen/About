@@ -1,0 +1,23 @@
+.project
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-details
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.project-image-container
+{
+    display:grid;
+height: 100%;
+width: 100%;
+}
